@@ -7,7 +7,7 @@ import SplitAbout from '@/components/sections/layouts/about/SplitAbout';
 import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import BigNumberTokenomics from '@/components/sections/layouts/tokenomics/BigNumberTokenomics';
 import FooterLogoEmphasis from '@/components/footer/FooterLogoEmphasis';
-import { LucideIcon } from 'lucide-react';
+import { ArrowRight, Shield, Star, Percent } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -49,9 +49,9 @@ export default function Home() {
           title="Tokenomics Overview" 
           description="Understanding the efficiency and structure of our tokens." 
           kpiItems={[
-            { value: "100M", description: "Total Token Supply", longDescription: "Total supply of tokens is capped to ensure value.", icon: LucideIcon },
-            { value: "1M", description: "Active Tokens", longDescription: "Tokens actively circulating in the market.", icon: LucideIcon },
-            { value: "500K", description: "Locked Tokens", longDescription: "Tokens locked for stability and growth.", icon: LucideIcon }
+            { value: "100M", description: "Total Token Supply", longDescription: "Total supply of tokens is capped to ensure value.", icon: Shield },
+            { value: "1M", description: "Active Tokens", longDescription: "Tokens actively circulating in the market.", icon: Star },
+            { value: "500K", description: "Locked Tokens", longDescription: "Tokens locked for stability and growth.", icon: Percent }
           ]} 
         />
       </div>
